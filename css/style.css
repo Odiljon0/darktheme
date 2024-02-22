@@ -1,0 +1,41 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn{
+    width: 150px;
+    background-color: transparent;
+    border-radius: 5px
+}
+.element{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../img/moon.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all ease 0.3s;
+}
+
+.dark{
+    background-image: url(../img/moon.png);
+}
+.light{
+    background-image: url(../img/sun.png);
+    transform: translate(90px);
+}
+.srk{
+    display: block;
+    width: 80px;
+    height: 30px;
+}
+.ddark{
+    color: lightblue;
+}
+.llight{
+    color: #000;
+}
